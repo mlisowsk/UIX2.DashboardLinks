@@ -32,6 +32,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="README.md" />
   </ItemGroup>
   <Target Name="Clean">
     <RemoveDir Directories="out" />
