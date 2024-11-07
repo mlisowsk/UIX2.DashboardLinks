@@ -4,10 +4,18 @@
     <title>My Dashboard</title>
     <meta charset="utf-8" />
     <script src="mfiles.extensibility.protocol.js"></script>
+    <script src="dashboard.js"></script>
 </head>
 <body>
     <div id="root">
-        <h2>Welcome to M-Files!</h2>
+        <h2>Testing Links in Dashboard</h2>
+        Before you open this dashboard, select an M-Files object.<p>
+            Selected object: <span id="obj-id" style="font-weight: bold;"></span>
+        <p>
+            Click the following links to open a new M-Files window for the previously selected object:
+            <div id="sect-1">1: Link with A tag: <a id="link-a1" href="">Link</a></div>
+            <div id="sect-2">2: Link with A tag and target=_blank: <a id="link-a2" href="" target="_blank">Link</a></div>
+            <div id="sect-3">3: Simulating link with event handler:<span id="link-span" style="cursor: pointer; text-decoration: underline; color: #318CCC;">Link3</span></div>
     </div>
 </body>
 </html>

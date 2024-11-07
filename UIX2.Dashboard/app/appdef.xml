@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-client-v5.xsd">
-	<guid>2c68aa24-4f5b-4d03-af09-0d1d8035746d</guid>
-	<name>Shellframe - dashboard</name>
+	<guid>df559b5c-00d8-42df-890f-87c5d7a2894f</guid>
+	<name>Dashboard with Links</name>
 	<version>0.1</version>
-	<description>A basic application showing how to work with Shellframe.</description>
+	<description>Listing dashboard with links</description>
 	<publisher>M-Files Corporation</publisher>
 	<enabled-by-default>true</enabled-by-default>
 	<modules>
